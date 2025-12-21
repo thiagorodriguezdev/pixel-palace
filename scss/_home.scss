@@ -47,9 +47,78 @@
       }
     }
   }
+  @include responsive(480px) {
+    padding-top: 8.5rem;
+    padding-bottom: 6.5rem;
+    .container {
+      .text {
+        h1 {
+          color: $white;
+          font-size: 3rem;
+          font-weight: 600;
+          line-height: 35.615px;
+          letter-spacing: -0.9px;
+        }
+        p {
+          max-width: 27.2rem;
+          color: $white;
+          font-size: 1.6rem;
+          font-weight: 500;
+          line-height: 16.537px;
+        }
+        button {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
 }
 
 .s-clientes {
+  width: 100%;
   background-color: $bg-purple;
   height: 21.2rem;
+  @include flex(row, center, space-between);
+  .container {
+    @include flex(row, center, space-between);
+    h2 {
+      width: 100%;
+      max-width: 26.8rem;
+      color: $white;
+      font-size: 3.1139rem;
+      font-weight: 700;
+      line-height: 3.7367rem;
+      letter-spacing: -0.0311rem;
+    }
+    ul {
+      @include flex(row, center, space-between);
+      gap: 4rem;
+    }
+  }
+
+  @include responsive(991px) {
+    .container {
+      gap: 4rem;
+      h2 {
+        max-width: 15rem;
+      }
+    }
+  }
+
+  @include responsive(480px) {
+    height: 8.3rem;
+    .container {
+      gap: 0rem;
+      h2 {
+        max-width: 8rem;
+        color: $white;
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 1.7367rem;
+      }
+      ul {
+        gap: 1rem;
+      }
+    }
+  }
 }

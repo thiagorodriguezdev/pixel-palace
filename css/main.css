@@ -167,8 +167,84 @@ header .container ul .idioma {
     margin: 0 auto;
   }
 }
+@media (max-width: 480px) {
+  .s-hero {
+    padding-top: 8.5rem;
+    padding-bottom: 6.5rem;
+  }
+  .s-hero .container .text h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 35.615px;
+    letter-spacing: -0.9px;
+  }
+  .s-hero .container .text p {
+    max-width: 27.2rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 16.537px;
+  }
+  .s-hero .container .text button {
+    font-size: 1.8rem;
+  }
+}
 
 .s-clientes {
+  width: 100%;
   background-color: #795AFF;
   height: 21.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-clientes .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-clientes .container h2 {
+  width: 100%;
+  max-width: 26.8rem;
+  color: #fff;
+  font-size: 3.1139rem;
+  font-weight: 700;
+  line-height: 3.7367rem;
+  letter-spacing: -0.0311rem;
+}
+.s-clientes .container ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+@media (max-width: 991px) {
+  .s-clientes .container {
+    gap: 4rem;
+  }
+  .s-clientes .container h2 {
+    max-width: 15rem;
+  }
+}
+@media (max-width: 480px) {
+  .s-clientes {
+    height: 8.3rem;
+  }
+  .s-clientes .container {
+    gap: 0rem;
+  }
+  .s-clientes .container h2 {
+    max-width: 8rem;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.7367rem;
+  }
+  .s-clientes .container ul {
+    gap: 1rem;
+  }
 }/*# sourceMappingURL=main.css.map */
