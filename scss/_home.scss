@@ -1,45 +1,45 @@
 .s-hero {
   width: 100%;
   background-color: #141424;
-  padding-top: 7.5rem;
-  padding-bottom: 17.5rem;
+  padding-top: 75px;
+  padding-bottom: 175px;
   .container {
     @include flex(row, center, space-between);
     .text {
       width: 100%;
-      max-width: 62rem;
+      max-width: 620px;
       h1 {
         color: $white;
-        font-size: 6.5rem;
+        font-size: 65px;
         font-weight: 600;
-        line-height: 78px;
-        letter-spacing: -1.95px;
-        margin-bottom: 2.3rem;
+        line-height: 7.8rem;
+        letter-spacing: -0.195rem;
+        margin-bottom: 23px;
         span {
           color: #795aff;
         }
       }
       p {
-        max-width: 48rem;
+        max-width: 480px;
         color: $white;
         opacity: 0.7;
-        font-size: 2.3rem;
+        font-size: 23px;
         font-weight: 500;
-        line-height: 3.15rem;
-        margin-bottom: 5.2rem;
+        line-height: 31.5px;
+        margin-bottom: 52px;
       }
       button {
-        @include style-btn(6.6rem, $bg-purple, $white);
+        @include style-btn(66px, $bg-purple, $white);
       }
     }
   }
-  @include responsive(991px) {
+  @include responsive(99.1rem) {
     .container {
       flex-direction: column;
       .text {
-        max-width: 60rem;
+        max-width: 600px;
         text-align: center;
-        margin-bottom: 5rem;
+        margin-bottom: 50px;
       }
       p,
       button {
@@ -47,27 +47,27 @@
       }
     }
   }
-  @include responsive(480px) {
-    padding-top: 8.5rem;
-    padding-bottom: 6.5rem;
+  @include responsive(48rem) {
+    padding-top: 85px;
+    padding-bottom: 65px;
     .container {
       .text {
         h1 {
           color: $white;
-          font-size: 3rem;
+          font-size: 30px;
           font-weight: 600;
-          line-height: 35.615px;
-          letter-spacing: -0.9px;
+          line-height: 3.5615rem;
+          letter-spacing: -0.09rem;
         }
         p {
-          max-width: 27.2rem;
+          max-width: 272px;
           color: $white;
-          font-size: 1.6rem;
+          font-size: 16px;
           font-weight: 500;
-          line-height: 16.537px;
+          line-height: 1.6537rem;
         }
         button {
-          font-size: 1.8rem;
+          font-size: 18px;
         }
       }
     }
@@ -77,52 +77,139 @@
 .s-clientes {
   width: 100%;
   background-color: $bg-purple;
-  height: 21.2rem;
+  height: 212px;
   @include flex(row, center, space-between);
   .container {
     @include flex(row, center, space-between);
     h2 {
       width: 100%;
-      max-width: 26.8rem;
+      max-width: 268px;
       color: $white;
-      font-size: 3.1139rem;
+      font-size: 31.139px;
       font-weight: 700;
-      line-height: 3.7367rem;
-      letter-spacing: -0.0311rem;
+      line-height: 37.367px;
+      letter-spacing: -0.311px;
     }
     ul {
       @include flex(row, center, space-between);
-      gap: 4rem;
+      gap: 40px;
     }
   }
 
-  @include responsive(991px) {
+  @include responsive(99.1rem) {
     .container {
-      gap: 4rem;
+      gap: 40px;
       h2 {
-        max-width: 15rem;
+        max-width: 150px;
       }
     }
   }
 
-  @include responsive(480px) {
-    height: 8.3rem;
+  @include responsive(48rem) {
+    height: 83px;
     .container {
-      gap: 0rem;
+      gap: 0px;
       h2 {
-        max-width: 8rem;
+        max-width: 80px;
         color: $white;
-        font-size: 1.4rem;
+        font-size: 14px;
         font-weight: 700;
-        line-height: 1.7367rem;
+        line-height: 17.367px;
       }
       ul {
-        gap: 1rem;
+        gap: 10px;
       }
     }
   }
 }
 
 .s-about {
-  padding-top: 23.2rem;
+  padding: 232px 0;
+  width: 100%;
+  .container {
+    .experiencia {
+      @include flex(row, center, space-between);
+      padding-bottom: 12.7rem;
+      .text-experiencia {
+        max-width: 52.9rem;
+        h2 {
+          color: $bg-purple;
+          max-width: 37.9rem;
+          font-size: 3.5rem;
+          font-weight: 700;
+          line-height: 4.6rem;
+          margin-bottom: 3.4rem;
+        }
+        p {
+          color: rgba(0, 0, 0, 0.7);
+          font-size: 2.2rem;
+          font-weight: 500;
+          line-height: 3.15rem;
+          span {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    .cards-about {
+      @include flex(row, center, center);
+      gap: 6rem;
+      margin-bottom: 12.7rem;
+      .card {
+        max-width: 43rem;
+        border: 0.2rem solid $bg-purple;
+        border-radius: 1.5rem;
+        padding: 9.7rem 3.5rem;
+        .icon {
+          width: 10rem;
+          height: 10rem;
+          display: flex;
+          margin: 0 auto;
+          margin-bottom: 5.6rem;
+          align-items: center;
+          justify-content: center;
+          border-radius: 1.5rem;
+          background: rgba(121, 90, 255, 0.2);
+        }
+        h3 {
+          color: $color-1;
+          text-align: center;
+          font-size: 3.3rem;
+          font-weight: 600;
+          line-height: 4.4rem;
+          letter-spacing: -0.033rem;
+          margin-bottom: 2.4rem;
+        }
+        p {
+          color: $black;
+          text-align: center;
+          font-size: 2rem;
+          font-weight: 500;
+          line-height: 2.6rem;
+          letter-spacing: -0.02rem;
+        }
+      }
+    }
+  }
+  .transformando {
+    @include flex(row, center, space-between);
+    .text-transformando {
+      max-width: 54.6rem;
+      h3 {
+        max-width: 35.6rem;
+        color: $bg-purple;
+        font-size: 3.5rem;
+        font-weight: 700;
+        line-height: 4.6rem;
+        letter-spacing: -0.035rem;
+        margin-bottom: 3.4rem;
+      }
+      p {
+        color: rgba(0, 0, 0, 0.7);
+        font-size: 2.2rem;
+        font-weight: 500;
+        line-height: 3.15rem;
+      }
+    }
+  }
 }

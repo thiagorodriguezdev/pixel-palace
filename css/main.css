@@ -19,6 +19,7 @@ html {
 }
 
 img {
+  display: block;
   max-width: 100%;
 }
 
@@ -99,8 +100,8 @@ header .container ul .idioma {
 .s-hero {
   width: 100%;
   background-color: #141424;
-  padding-top: 7.5rem;
-  padding-bottom: 17.5rem;
+  padding-top: 75px;
+  padding-bottom: 175px;
 }
 .s-hero .container {
   display: flex;
@@ -110,31 +111,31 @@ header .container ul .idioma {
 }
 .s-hero .container .text {
   width: 100%;
-  max-width: 62rem;
+  max-width: 620px;
 }
 .s-hero .container .text h1 {
   color: #fff;
-  font-size: 6.5rem;
+  font-size: 65px;
   font-weight: 600;
-  line-height: 78px;
-  letter-spacing: -1.95px;
-  margin-bottom: 2.3rem;
+  line-height: 7.8rem;
+  letter-spacing: -0.195rem;
+  margin-bottom: 23px;
 }
 .s-hero .container .text h1 span {
   color: #795aff;
 }
 .s-hero .container .text p {
-  max-width: 48rem;
+  max-width: 480px;
   color: #fff;
   opacity: 0.7;
-  font-size: 2.3rem;
+  font-size: 23px;
   font-weight: 500;
-  line-height: 3.15rem;
-  margin-bottom: 5.2rem;
+  line-height: 31.5px;
+  margin-bottom: 52px;
 }
 .s-hero .container .text button {
   display: inline-block;
-  height: 6.6rem;
+  height: 66px;
   color: #fff;
   line-height: 2.9539rem;
   background-color: #795AFF;
@@ -153,48 +154,48 @@ header .container ul .idioma {
   background-color: #fff;
   color: #795AFF;
 }
-@media (max-width: 991px) {
+@media (max-width: 99.1rem) {
   .s-hero .container {
     flex-direction: column;
   }
   .s-hero .container .text {
-    max-width: 60rem;
+    max-width: 600px;
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 50px;
   }
   .s-hero .container p,
   .s-hero .container button {
     margin: 0 auto;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 48rem) {
   .s-hero {
-    padding-top: 8.5rem;
-    padding-bottom: 6.5rem;
+    padding-top: 85px;
+    padding-bottom: 65px;
   }
   .s-hero .container .text h1 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 30px;
     font-weight: 600;
-    line-height: 35.615px;
-    letter-spacing: -0.9px;
+    line-height: 3.5615rem;
+    letter-spacing: -0.09rem;
   }
   .s-hero .container .text p {
-    max-width: 27.2rem;
+    max-width: 272px;
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 16.537px;
+    line-height: 1.6537rem;
   }
   .s-hero .container .text button {
-    font-size: 1.8rem;
+    font-size: 18px;
   }
 }
 
 .s-clientes {
   width: 100%;
   background-color: #795AFF;
-  height: 21.2rem;
+  height: 212px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -208,47 +209,141 @@ header .container ul .idioma {
 }
 .s-clientes .container h2 {
   width: 100%;
-  max-width: 26.8rem;
+  max-width: 268px;
   color: #fff;
-  font-size: 3.1139rem;
+  font-size: 31.139px;
   font-weight: 700;
-  line-height: 3.7367rem;
-  letter-spacing: -0.0311rem;
+  line-height: 37.367px;
+  letter-spacing: -0.311px;
 }
 .s-clientes .container ul {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 4rem;
+  gap: 40px;
 }
-@media (max-width: 991px) {
+@media (max-width: 99.1rem) {
   .s-clientes .container {
-    gap: 4rem;
+    gap: 40px;
   }
   .s-clientes .container h2 {
-    max-width: 15rem;
+    max-width: 150px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 48rem) {
   .s-clientes {
-    height: 8.3rem;
+    height: 83px;
   }
   .s-clientes .container {
-    gap: 0rem;
+    gap: 0px;
   }
   .s-clientes .container h2 {
-    max-width: 8rem;
+    max-width: 80px;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 14px;
     font-weight: 700;
-    line-height: 1.7367rem;
+    line-height: 17.367px;
   }
   .s-clientes .container ul {
-    gap: 1rem;
+    gap: 10px;
   }
 }
 
 .s-about {
-  padding-top: 23.2rem;
+  padding: 232px 0;
+  width: 100%;
+}
+.s-about .container .experiencia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12.7rem;
+}
+.s-about .container .experiencia .text-experiencia {
+  max-width: 52.9rem;
+}
+.s-about .container .experiencia .text-experiencia h2 {
+  color: #795AFF;
+  max-width: 37.9rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.6rem;
+  margin-bottom: 3.4rem;
+}
+.s-about .container .experiencia .text-experiencia p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 3.15rem;
+}
+.s-about .container .experiencia .text-experiencia p span {
+  font-weight: 700;
+}
+.s-about .container .cards-about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  margin-bottom: 12.7rem;
+}
+.s-about .container .cards-about .card {
+  max-width: 43rem;
+  border: 0.2rem solid #795AFF;
+  border-radius: 1.5rem;
+  padding: 9.7rem 3.5rem;
+}
+.s-about .container .cards-about .card .icon {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 5.6rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  background: rgba(121, 90, 255, 0.2);
+}
+.s-about .container .cards-about .card h3 {
+  color: #21174d;
+  text-align: center;
+  font-size: 3.3rem;
+  font-weight: 600;
+  line-height: 4.4rem;
+  letter-spacing: -0.033rem;
+  margin-bottom: 2.4rem;
+}
+.s-about .container .cards-about .card p {
+  color: #000;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  letter-spacing: -0.02rem;
+}
+.s-about .transformando {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-about .transformando .text-transformando {
+  max-width: 54.6rem;
+}
+.s-about .transformando .text-transformando h3 {
+  max-width: 35.6rem;
+  color: #795AFF;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.6rem;
+  letter-spacing: -0.035rem;
+  margin-bottom: 3.4rem;
+}
+.s-about .transformando .text-transformando p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 3.15rem;
 }/*# sourceMappingURL=main.css.map */
