@@ -18,6 +18,10 @@ html {
   }
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   width: 100%;
   max-width: 143rem;
@@ -90,4 +94,81 @@ header .container ul .idioma {
   header .logo img {
     height: 5.3rem;
   }
+}
+
+.s-hero {
+  width: 100%;
+  background-color: #141424;
+  padding-top: 7.5rem;
+  padding-bottom: 17.5rem;
+}
+.s-hero .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-hero .container .text {
+  width: 100%;
+  max-width: 62rem;
+}
+.s-hero .container .text h1 {
+  color: #fff;
+  font-size: 6.5rem;
+  font-weight: 600;
+  line-height: 78px;
+  letter-spacing: -1.95px;
+  margin-bottom: 2.3rem;
+}
+.s-hero .container .text h1 span {
+  color: #795aff;
+}
+.s-hero .container .text p {
+  max-width: 48rem;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 2.3rem;
+  font-weight: 500;
+  line-height: 3.15rem;
+  margin-bottom: 5.2rem;
+}
+.s-hero .container .text button {
+  display: inline-block;
+  height: 6.6rem;
+  color: #fff;
+  line-height: 2.9539rem;
+  background-color: #795AFF;
+  border-radius: 1.3359rem;
+  letter-spacing: -0.021rem;
+  padding: 1.8rem 5.4rem;
+  font-weight: 600;
+  font-size: 2.1rem;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.s-hero .container .text button:hover {
+  background-color: #fff;
+  color: #795AFF;
+}
+@media (max-width: 991px) {
+  .s-hero .container {
+    flex-direction: column;
+  }
+  .s-hero .container .text {
+    max-width: 60rem;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  .s-hero .container p,
+  .s-hero .container button {
+    margin: 0 auto;
+  }
+}
+
+.s-clientes {
+  background-color: #795AFF;
+  height: 21.2rem;
 }/*# sourceMappingURL=main.css.map */
