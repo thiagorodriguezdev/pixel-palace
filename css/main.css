@@ -346,4 +346,92 @@ header .container ul .idioma {
   font-size: 2.2rem;
   font-weight: 500;
   line-height: 3.15rem;
+}
+@media (max-width: 1300px) {
+  .s-about .experiencia img {
+    max-width: 45%;
+  }
+  .s-about .experiencia .transformando {
+    max-width: 45%;
+  }
+}
+@media (max-width: 991px) {
+  .s-about {
+    padding: 140px 0;
+  }
+  .s-about .container .experiencia {
+    flex-direction: column;
+    padding-bottom: 6rem;
+  }
+  .s-about .container .experiencia img {
+    max-width: 100%;
+    margin-bottom: 4.5rem;
+  }
+  .s-about .container .experiencia .text-experiencia {
+    max-width: 100%;
+  }
+  .s-about .container .experiencia .text-experiencia h2 {
+    max-width: 59.9rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 4.6rem;
+  }
+  .s-about .container .experiencia .text-experiencia p {
+    max-width: 75rem;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 42px;
+  }
+  .s-about .container .cards-about {
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+  .s-about .container .cards-about .card {
+    max-width: 80%;
+  }
+  .s-about .container .cards-about .card h3 {
+    font-size: 5rem;
+  }
+  .s-about .container .cards-about .card p {
+    font-size: 2rem;
+  }
+  .s-about .container .transformando {
+    flex-direction: column;
+  }
+  .s-about .container .transformando .text-transformando {
+    max-width: 100%;
+  }
+  .s-about .container .transformando .text-transformando h3 {
+    max-width: 53.5rem;
+    margin: 0 auto;
+    margin-bottom: 4.5rem;
+    text-align: center;
+  }
+  .s-about .container .transformando .text-transformando p {
+    max-width: 73.5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .s-about {
+    padding: 4.5rem;
+  }
+  .s-about .container .experiencia .text-experiencia h2 {
+    max-width: 21.6rem;
+    font-size: 2rem;
+    line-height: 2.6221rem;
+    letter-spacing: -0.02rem;
+  }
+  .s-about .container .experiencia .text-experiencia p {
+    max-width: 31.2rem;
+    font-size: 1.6rem;
+    line-height: 1.7956rem;
+  }
+  .s-about .container .cards-about .card {
+    max-width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
