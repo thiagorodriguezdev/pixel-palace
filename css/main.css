@@ -348,10 +348,8 @@ header .container ul .idioma {
   line-height: 3.15rem;
 }
 @media (max-width: 1300px) {
-  .s-about .experiencia img {
-    max-width: 45%;
-  }
-  .s-about .experiencia .transformando img {
+  .s-about .experiencia img,
+  .s-about .transformando img {
     max-width: 45%;
   }
 }
@@ -436,5 +434,24 @@ header .container ul .idioma {
   }
   .s-about .container .cards-about .card {
     max-width: 100%;
+  }
+  .s-about .container .cards-about .card h3 {
+    font-size: 2.6rem;
+    line-height: 3.463rem;
+    letter-spacing: -0.026rem;
+  }
+  .s-about .container .cards-about .card p {
+    font-size: 16px;
+    line-height: 2.0463rem;
+    letter-spacing: -0.016rem;
+  }
+  .s-about .container .transformando .text-transformando h3 {
+    font-size: 2rem;
+    line-height: 2.1191rem;
+    letter-spacing: -0.02rem;
+  }
+  .s-about .container .transformando .text-transformando p {
+    font-size: 1.4rem;
+    line-height: 1.4511rem;
   }
 }/*# sourceMappingURL=main.css.map */

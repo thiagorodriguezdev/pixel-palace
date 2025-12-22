@@ -213,14 +213,10 @@
     }
   }
   @include responsive(1300px) {
-    .experiencia {
+    .experiencia,
+    .transformando {
       img {
         max-width: 45%;
-      }
-      .transformando {
-        img {
-          max-width: 45%;
-        }
       }
     }
   }
@@ -309,6 +305,29 @@
       .cards-about {
         .card {
           max-width: 100%;
+          h3 {
+            font-size: 2.6rem;
+            line-height: 3.463rem;
+            letter-spacing: -0.026rem;
+          }
+          p {
+            font-size: 16px;
+            line-height: 2.0463rem;
+            letter-spacing: -0.016rem;
+          }
+        }
+      }
+      .transformando {
+        .text-transformando {
+          h3 {
+            font-size: 2rem;
+            line-height: 2.1191rem;
+            letter-spacing: -0.02rem;
+          }
+          p {
+            font-size: 1.4rem;
+            line-height: 1.4511rem;
+          }
         }
       }
     }
