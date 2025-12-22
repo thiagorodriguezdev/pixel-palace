@@ -402,7 +402,7 @@ header .container ul .idioma {
     flex-direction: column;
   }
   .s-about .container .transformando img {
-    max-width: 45%;
+    max-width: 100%;
   }
   .s-about .container .transformando .text-transformando {
     max-width: 100%;
