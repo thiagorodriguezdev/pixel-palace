@@ -351,7 +351,7 @@ header .container ul .idioma {
   .s-about .experiencia img {
     max-width: 45%;
   }
-  .s-about .experiencia .transformando {
+  .s-about .experiencia .transformando img {
     max-width: 45%;
   }
 }
@@ -401,6 +401,9 @@ header .container ul .idioma {
   .s-about .container .transformando {
     flex-direction: column;
   }
+  .s-about .container .transformando img {
+    max-width: 45%;
+  }
   .s-about .container .transformando .text-transformando {
     max-width: 100%;
   }
@@ -418,7 +421,7 @@ header .container ul .idioma {
 }
 @media (max-width: 480px) {
   .s-about {
-    padding: 4.5rem;
+    padding: 1.5rem;
   }
   .s-about .container .experiencia .text-experiencia h2 {
     max-width: 21.6rem;

@@ -218,7 +218,9 @@
         max-width: 45%;
       }
       .transformando {
-        max-width: 45%;
+        img {
+          max-width: 45%;
+        }
       }
     }
   }
@@ -266,6 +268,9 @@
       }
       .transformando {
         flex-direction: column;
+        img {
+          max-width: 45%;
+        }
         .text-transformando {
           max-width: 100%;
           h3 {
@@ -284,7 +289,7 @@
     }
   }
   @include responsive(480px) {
-    padding: 4.5rem;
+    padding: 1.5rem;
     .container {
       .experiencia {
         .text-experiencia {
@@ -297,7 +302,7 @@
           p {
             max-width: 31.2rem;
             font-size: 1.6rem;
-            line-height: 1.7956rem; 
+            line-height: 1.7956rem;
           }
         }
       }
