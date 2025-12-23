@@ -527,4 +527,61 @@ header .container ul .idioma {
   font-style: normal;
   font-weight: 500;
   line-height: 28.423px; /* 142.115% */
+}
+@media (max-width: 991px) {
+  .s-servicos .container .cards-servicos .card-servicos {
+    max-width: 100%;
+    gap: 5rem;
+  }
+  .s-servicos .container .cards-servicos .card-servicos .image {
+    width: 16.6rem;
+    height: 13.3rem;
+  }
+  .s-servicos .container .cards-servicos .card-servicos .image img {
+    width: 6.5rem;
+  }
+  .s-servicos .container .cards-servicos .card-servicos .text-card {
+    max-width: 48rem;
+  }
+  .s-servicos .container .cards-servicos .card-servicos .text-card h3 {
+    font-size: 4.5rem;
+    font-weight: 600;
+    line-height: 8.0956rem;
+    letter-spacing: -0.045rem;
+  }
+  .s-servicos .container .cards-servicos .card-servicos .text-card p {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 4.2rem;
+    max-width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .s-servicos {
+    padding: 8rem 0;
+  }
+  .s-servicos .container .text h2 {
+    font-size: 3rem;
+  }
+  .s-servicos .container .text p {
+    font-size: 1.6rem;
+  }
+  .s-servicos .container .cards-servicos .card-servicos {
+    gap: 2rem;
+  }
+  .s-servicos .container .cards-servicos .card-servicos .image {
+    width: 25.6rem;
+    height: 8.3rem;
+  }
+  .s-servicos .container .cards-servicos .card-servicos .image img {
+    width: 3.3rem;
+  }
+  .s-servicos .container .cards-servicos .card-servicos .text-card h3 {
+    font-size: 2rem;
+    line-height: 2.763rem;
+  }
+  .s-servicos .container .cards-servicos .card-servicos .text-card p {
+    font-size: 13px;
+    line-height: 20.5px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -403,4 +403,71 @@
       }
     }
   }
+  @include responsive(991px) {
+    .container {
+      .cards-servicos {
+        .card-servicos {
+          .image {
+            width: 16.6rem;
+            height: 13.3rem;
+            img {
+              width: 6.5rem;
+            }
+          }
+          max-width: 100%;
+          gap: 5rem;
+          .text-card {
+            max-width: 48rem;
+            h3 {
+              font-size: 4.5rem;
+              font-weight: 600;
+              line-height: 8.0956rem;
+              letter-spacing: -0.045rem;
+            }
+            p {
+              font-size: 3rem;
+              font-weight: 500;
+              line-height: 4.2rem;
+              max-width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include responsive(480px) {
+    padding: 8rem 0;
+    .container {
+      .text {
+        h2 {
+          font-size: 3rem;
+        }
+        p {
+          font-size: 1.6rem;
+        }
+      }
+      .cards-servicos {
+        .card-servicos {
+          gap: 2rem;
+          .image {
+            width: 25.6rem;
+            height: 8.3rem;
+            img {
+              width: 3.3rem;
+            }
+          }
+          .text-card {
+            h3 {
+              font-size: 2rem;
+              line-height: 2.763rem;
+            }
+            p {
+              font-size: 13px;
+              line-height: 20.5px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
