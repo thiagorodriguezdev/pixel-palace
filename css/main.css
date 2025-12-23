@@ -556,6 +556,18 @@ header .container ul .idioma {
     max-width: 100%;
   }
 }
+@media (max-width: 768px) {
+  .s-servicos .container .cards-servicos .card-servicos {
+    flex-direction: column;
+  }
+  .s-servicos .container .cards-servicos .card-servicos .image img {
+    width: 6.5rem;
+  }
+  .s-servicos .container .cards-servicos .card-servicos .text-card h3,
+  .s-servicos .container .cards-servicos .card-servicos .text-card p {
+    text-align: center;
+  }
+}
 @media (max-width: 480px) {
   .s-servicos {
     padding: 8rem 0;
@@ -570,7 +582,7 @@ header .container ul .idioma {
     gap: 2rem;
   }
   .s-servicos .container .cards-servicos .card-servicos .image {
-    width: 25.6rem;
+    width: 8.6rem;
     height: 8.3rem;
   }
   .s-servicos .container .cards-servicos .card-servicos .image img {

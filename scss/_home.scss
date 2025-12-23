@@ -435,6 +435,26 @@
       }
     }
   }
+  @include responsive(768px) {
+    .container {
+      .cards-servicos {
+        .card-servicos {
+          flex-direction: column;
+          .image {
+            img {
+              width: 6.5rem;
+            }
+          }
+          .text-card {
+            h3,
+            p {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
   @include responsive(480px) {
     padding: 8rem 0;
     .container {
@@ -450,7 +470,7 @@
         .card-servicos {
           gap: 2rem;
           .image {
-            width: 25.6rem;
+            width: 8.6rem;
             height: 8.3rem;
             img {
               width: 3.3rem;
