@@ -334,4 +334,73 @@
   }
 }
 
-
+.s-servicos {
+  width: 100%;
+  background-color: $bg-servicos;
+  padding: 19.3rem 0;
+  .container {
+    .text {
+      text-align: center;
+      h2 {
+        font-size: 4.4rem;
+        color: #21174d;
+        margin-bottom: 1.4rem;
+      }
+      p {
+        max-width: 79rem;
+        margin: 0 auto;
+        color: rgba(0, 0, 0, 0.7);
+        font-size: 2.2rem;
+        font-weight: 500;
+        line-height: 3.15rem;
+        padding-bottom: 8.6rem;
+      }
+    }
+    .cards-servicos {
+      width: 100%;
+      @include flex(row, center, center);
+      gap: 2rem;
+      flex-wrap: wrap;
+      .card-servicos {
+        width: 100%;
+        @include flex(row, center, center);
+        gap: 3.4rem;
+        border-radius: 1.7342rem;
+        border: 0.0963rem solid rgba(0, 0, 0, 0.2);
+        max-width: 60rem;
+        padding: 4.5rem 0 4.5rem 3.3rem;
+        background-color: $white;
+        .image {
+          height: 3.6rem;
+          width: 10.6rem;
+          height: 10.3rem;
+          border-radius: 50%;
+          border: 0.1rem solid #795aff;
+          background-color: #e4deff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .text-card {
+          h3 {
+            color: #21174d;
+            font-size: 2.8rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 3.9702rem;
+            letter-spacing: -0.028rem;
+            padding-bottom: 1.5rem;
+          }
+          p {
+            max-width: 38.7rem;
+            color: rgba(0, 0, 0, 0.7);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28.423px; /* 142.115% */
+          }
+        }
+      }
+    }
+  }
+}
